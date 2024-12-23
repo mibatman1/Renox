@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Renox Thrive</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-brand" href="">
+            <img src="https://renoxgroup.net/assets/img/renox-thrive-img/logo.png" alt="Builder Logo"
+                class="img-fluid  builder_logo">
+        </a>
+
+        <!-- another mobile number on bottom -->
+
+        <a class="btn btn_dark_fill icon_btn round call_btn d_sm_none" href="tel:917406091177"><span class="icon"><img
+                    src="images/icons/call.png" alt="call icon" class="img-fluid"></span>
+            <div class="right">
+                <span class="txt">Give us a call</span>
+                <span class="num blinker">+91-8588969862</span>
+            </div>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="top">
+                <img src="https://renoxgroup.net/assets/img/renox-thrive-img/logo.png" alt="Developer Logo" class="img-fluid logo">
+                <div class="close" onclick="closeHamburgerMenu()">×</div>
+            </div>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#overview">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#leased">Brands Already Leased</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#price-list">Price List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#highlights">Highlights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#amenities">Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#master-floor-plan">Master &amp; Floor Plan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#location-advantage">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#gallery">Gallery</a>
+                </li>
+            </ul>
+        </div>
+
+        <button class="navbar-toggler" type="button" onclick="toggleNavbar()">
+            <img src="images/icons/hamburgerIcon.png" alt="Hamburger Icon" class="img-fluid">
+        </button>
+    </nav>
+
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./logo.jpg" width="30" height="30" alt="Flowbite Logo" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="dropdown-item" href="#three">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./about.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./about.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./about.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> -->
+
+    <!-- Banner Section -->
+    <!-- <div class="jumbotron jumbotron-fluid text-center" style="background-image: url('https://nirala-estate.ixapl.com/images/banner.jpg'); background-size: cover; height: 400px; color: white;">
+        <div class="container">
+            <h1 class="display-4">Welcome to Nirala Estate</h1>
+            <p class="lead">Luxurious Apartments with World-Class Amenities</p>
+        </div>
+    </div> -->
+
+    <!-- main section -->
+    <section class="banner_section" id="home">
+        <div id="bannerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#bannerCarousel" data-slide-to="0" class="">
+                    <div class="round">1</div>
+                </li>
+                <li data-target="#bannerCarousel" data-slide-to="1" class="active">
+                    <div class="round">2</div>
+                </li>
+                <li data-target="#bannerCarousel" data-slide-to="2" class="">
+                    <div class="round">3</div>
+                </li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item"> <img alt="Banner Image"
+                        src="https://renoxgroup.net/assets/img/renox-thrive-img/logo.png"
+                        class="w-100 lazyloaded" decoding="async" id="Mjk2OjE0MA==-1"
+                        >
+                </div>
+                <div class="carousel-item active"> <img alt="Banner Image"
+                        src="https://cdn-ilbbehn.nitrocdn.com/OLtZbbVDAyyJBgErSCPGwvFtnGDmkkor/assets/images/optimized/rev-89e748e/centrade.in/wp-content/uploads/2024/07/2.png"
+                        class="w-100 lazyloaded" decoding="async" id="MzAwOjE0MA==-1"
+                        >
+                </div>
+                <div class="carousel-item"> <img alt="Banner Image"
+                        src="https://cdn-ilbbehn.nitrocdn.com/OLtZbbVDAyyJBgErSCPGwvFtnGDmkkor/assets/images/optimized/rev-89e748e/centrade.in/wp-content/uploads/2024/07/6.png"
+                        class="w-100 lazyloaded" decoding="async" nitro-lazy-empty="" id="MzA0OjE0MA==-1"
+                        >
+                </div>
+            </div>
+            <div class="banner_main_contents">
+                <div class="container">
+                    <div class="banner-contents">
+                        <div class="row w-100 w_sm_auto">
+                            <div class="col-12 col-md-8 left_col">
+                                <div class="contents">
+                                    <div class="head_line"> <img alt="" width="100%" style="width:60%;"
+                                            nitro-lazy-src="https://renoxgroup.net/assets/img/renox-thrive-img/logo.png"
+                                            class="logo-head-d lazyloaded" decoding="async" nitro-lazy-empty=""
+                                            id="MzE2OjIzOQ==-1"
+                                            src="https://renoxgroup.net/assets/img/renox-thrive-img/logo.png">
+                                        <img alt="" width="100%"
+                                            src="https://renoxgroup.net/assets/img/renox-thrive-img/logo.png"
+                                            class="logo-head-m nitro-lazy" decoding="async" nitro-lazy-empty=""
+                                            id="MzE3OjIxOQ==-1"
+                                            >
+                                        <h4 class="typo" style="color: black;">Invest In Noida's Best Selling Property</h4>
+                                    </div>
+                                    <div class="location"><img alt="location-icon"
+                                            nitro-lazy-src="https://cdn-ilbbehn.nitrocdn.com/OLtZbbVDAyyJBgErSCPGwvFtnGDmkkor/assets/images/optimized/rev-89e748e/centrade.in/wp-content/uploads/2024/07/location1.png"
+                                            class="location_icon lazyloaded" decoding="async" nitro-lazy-empty=""
+                                            id="MzIxOjE4NQ==-1"
+                                            src="https://cdn-ilbbehn.nitrocdn.com/OLtZbbVDAyyJBgErSCPGwvFtnGDmkkor/assets/images/optimized/rev-89e748e/centrade.in/wp-content/uploads/2024/07/location1.png">
+                                        <p>Sector 10 <span>Greater Noida West</span></p>
+                                    </div>
+                                    <div class="st_price"> <span class="rupee_symbol">₹</span> <span
+                                            class="price_line">Starting At</span> <span class="amount"> <span>1.42</span>
+                                            Crore<span class="star">*</span></span> 
+                                            <div class="mt-1"><b>12%</b> UPFRONT ASSURED RETURNS</div>
+                                    </div>
+
+                                    <div class="offer">3 & 4 BHK Apartments</div>
+                                    <ul class="banner_offers">
+                                        <li>
+                                            <div class="cont"> <span class="right">Ready <small>30+ Amenities</small></span> </div>
+                                        </li>
+                                        <li>
+                                            <div class="cont"> <span class="right">Location <small>Sector 10 Greater Noida
+                                                        West</small></span> </div>
+                                        </li>
+                                        <li>
+                                            <div class="cont"> <span class="right"><small>&amp; Thrive in Vastu-infused Opulence</small></span> </div>
+                                        </li>
+                                        <li>
+                                            <div class="cont"> <span class="right">Hybrid <small>Retail</small></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="cont"> <span class="right">Co-Working
+                                                    <small>Space</small></span> </div>
+                                        </li>
+                                        <li>
+                                            <div class="cont"> <span class="right">Spread <small>over sprawling 5
+                                                        acres</small></span> </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 right_col">
+                                <div class="form an_form" autocomplete="off">
+                                    <h4 class="title">Have a Question! <span>Enquire Now</span></h4>
+                                    <form id="testform"> <input hidden="" type="text" autocomplete="false">
+                                        <div class="form-group mx-0"> <label for="name">Name*</label> <input type="text"
+                                                class="form-control" id="name" placeholder="Enter Your Name*"
+                                                name="name"
+                                                onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || event.charCode == 32)"
+                                                required="">
+                                            <div class="outline"></div>
+                                        </div>
+                                        <div class="form-group mx-0">
+                                            <label for="budget">Budget*</label>
+                                            <div>
+                                                <input type="radio" id="budget1" name="budget" value="50-70L">
+                                                <label for="budget1">₹50-₹70L</label><br>
+                                        
+                                                <input type="radio" id="budget2" name="budget" value="70-90L">
+                                                <label for="budget2">₹70-₹90L</label><br>
+                                        
+                                                <input type="radio" id="budget3" name="budget" value="Above 1 CR">
+                                                <label for="budget3">Above ₹1 CR</label>
+                                            </div>
+                                            <div class="outline"></div>
+                                        </div>
+                                        <div class="form-group mx-0"> <label for="number">Mobile Number*</label> <input
+                                                type="text" class="form-control" id="phone" placeholder="Mobile No*"
+                                                name="phone"
+                                                onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57"
+                                                required="">
+                                            <div class="outline"></div>
+                                        </div>
+                                        <div class="form-group mx-0"> <input type="hidden" class="form-control"
+                                                id="city" value="Noida" placeholder="Enter Your City*" name="city"
+                                                required="">
+                                            <div class="outline"></div>
+                                        </div> <input type="hidden" name="" id="ip" value="49.249.44.18"> <input
+                                            type="submit" value="Enquire Now" name="send"
+                                            class="btn dark_btn submit_btn" id="SubmitQuery">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scroll_text d_sm_none"> <a href="#overview" class="nav-link-custom">
+                                <p>Scroll Down</p> <img alt="arrow-down"
+                                    nitro-lazy-src="https://cdn-ilbbehn.nitrocdn.com/OLtZbbVDAyyJBgErSCPGwvFtnGDmkkor/assets/images/optimized/rev-89e748e/centrade.in/wp-content/uploads/2024/07/down-arrow.png"
+                                    class="img-fluid arrow_icon lazyloaded" decoding="async" nitro-lazy-empty=""
+                                    id="NDE2OjE2Ng==-1"
+                                    src="https://cdn-ilbbehn.nitrocdn.com/OLtZbbVDAyyJBgErSCPGwvFtnGDmkkor/assets/images/optimized/rev-89e748e/centrade.in/wp-content/uploads/2024/07/down-arrow.png">
+                            </a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="banner_section" id="home">
+        <div id="bannerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#bannerCarousel" data-slide-to="0" class="">
+                    <div class="round">1</div>
+                </li>
+                <li data-target="#bannerCarousel" data-slide-to="1" class="active">
+                    <div class="round">2</div>
+                </li>
+                <li data-target="#bannerCarousel" data-slide-to="2" class="">
+                    <div class="round">3</div>
+                </li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="images/gallery/banner1.jpg" class="w-100 d_sm_none" alt="Banner Image">
+                    <div class="overlay"></div>
+
+                </div>
+                <div class="carousel-item active">
+                    <img src="images/gallery/banner2.jpg" class="w-100 d_sm_none" alt="Banner Image">
+                    <div class="overlay"></div>
+
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gallery/banner3.jpg" class="w-100 d_sm_none" alt="Banner Image">
+                    <div class="overlay"></div>
+
+                </div>
+            </div>
+
+            <div class="banner_main_contents">
+                <div class="container">
+                    <div class="banner-contents">
+                        <div class="row w-100 w_sm_auto">
+                            <div class="col-12 col-md-8 left_col">
+                                <div class="contents">
+                                    <div class="head_line">
+                                        <!-- <h2 style="color: #000; font-weight: 900; margin-bottom: 20px;">Nirala Estate 2.0</h2> -->
+    <!-- <h4 class="typo">Looking to invest in</h4> -->
+    <!-- <img class="logo-head-d" src="images/logo-new1.png" alt="" width="100%" style="width: 60%;">
+                                        <img class="logo-head-m" src="images/logo-dark-new.png" alt="" width="100%"> -->
+
+    <!-- <h4 class="typo">Shop, Office, Space, Studio?</h4>
+                                        <ul
+                                            style="list-style-position: inside; font-size: xx-large; margin-top: 30px; font-weight: bolder;">
+                                            <li>Assured 18% Returns</li>
+                                            <li>Booking at Just Rs 4Lakh. (Best Deal In Market)</li>
+                                            <li>30+ Luxeries Amenities</li>
+                                            <li>RERA Approved</li>
+                                        </ul>
+                                    </div> -->
+    <!-- <div class="location"><img src="images/icons/location1.png" alt="location-icon" class="location_icon"><p>At GH-04, Tech Zone-IV, <span>  Greater Noida West</span></p></div> -->
+
+    <!-- <div class="st_price">
+                                        <span class="rupee_symbol">₹</span>
+                                        <span class="price_line">Starting At</span>
+                                        <span class="amount"> <span>1.27</span> Cr<span class="star">*</span></span>
+                                    </div> -->
+
+
+    <!-- <ul class="banner_offers">
+                                        <li>
+                                            <div class="cont">
+                                                <span class="right">New <small>Launch</small></span>
+                                            </div>
+                                        </li>
+    
+                                        <li>
+                                            <div class="cont">
+                                                <span class="right">Location  <small>GH-04, Tech Zone-IV, Greater Noida West</small></span>
+                                            </div>
+                                        </li>
+    
+                                        <li>
+                                            <div class="cont">
+                                                <span class="right">Total Tower - <small>18</small></span>
+                                            </div>
+                                        </li>
+    
+                                        <li>
+                                            <div class="cont">
+                                                <span class="right">Area -  <small>25 Acres </small></span>
+                                            </div>
+                                        </li>
+    
+                                        <li>
+                                            <div class="cont">
+                                                <span class="right">Total Floor -  <small>Stilt + 24 floors</small></span>
+                                            </div>
+                                        </li>
+    
+                                        <li>
+                                            <div class="cont">
+                                                <!-- <span class="left"><b>82%</b></span> -->
+    <!-- <span class="right">Project Type -   <small>Residential  Luxury Apartments </small></span>
+                                            </div>
+                                        </li>
+                                    </ul> --> -->
+
+    <!-- </div>
+                            </div> -->
+
+    <!-- <div class="col-12 col-md-4 right_col">
+                                <form id="testform">
+                                    <div class="form an_form" autocomplete="off">
+
+                                        <h4 class="title">Have a Question! <span>Enquire Now</span></h4> -->
+
+    <!-- <input hidden="" type="text" autocomplete="false"> -->
+    <!-- <div class="form-group mx-0">
+                                            <label for="name">Name*</label>
+                                            <input type="text" class="form-control" id="name"
+                                                placeholder="Enter Your Name*" name="name" required="">
+                                            <div class="outline"></div>
+                                        </div>
+                                        <div class="form-group mx-0">
+                                            <label for="email">Email*</label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Enter Your Email*" name="email" required="" size="32"
+                                                minlength="3" maxlength="64">
+                                            <div class="outline"></div>
+                                        </div>
+                                        <div class="form-group mx-0">
+                                            <label for="number">Mobile Number*</label>
+                                            <input type="text" class="form-control" id="phone" placeholder="Mobile No*"
+                                                name="phone" required="">
+                                            <div class="outline"></div> -->
+    <!-- </div>
+                                        <div class="form-group mx-0"> -->
+    <!--<label for="number">Mobile Number*</label>-->
+    <!-- <input type="hidden" class="form-control" id="city" value="Noida"
+                                                placeholder="Enter Your City*" name="city" required="">
+                                            <div class="outline"></div>
+                                        </div> -->
+    <!-- <input type="hidden" name="" id="ip" value="49.47.70.181"> -->
+    <!-- <input type="submit" value="Book A Site Visit" name="submit"
+                                            class="btn dark_btn submit_btn" id="SubmitQuery" />
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <div class="scroll_text d_sm_none">
+                            <a href="#overview" class="nav-link-custom">
+                                <p>Scroll Down</p>
+                                <img src="images/icons/down-arrow.png" alt="arrow-down" class="img-fluid arrow_icon">
+                            </a>
+                        </div> -->
+
+    <!-- </div>
+                </div>
+            </div>
+        </div> -->
+
+    <!-- </section> --> -->
+
+    <!-- <section style="margin-top:20px; margin-bottom:20px;">
+        <container>
+            <div>
+                <a class="" href="#" data-toggle="modal" data-target="#modal1"> -->
+    <!-- <img data-src="images/strip-banner-desktop-navratri.jpg" src="images/strip-banner-desktop-navratri.jpg" alt="#" class="desktop-banner" style="width: 100%;"> -->
+    <!-- <img data-src="images/strip-banner-mobile-navratri.jpg" src="images/strip-banner-mobile-navratri.jpg" alt="#" class="mobile-banner" style="width: 100%;"> -->
+    <!-- </a>
+            </div>
+        </container>
+    </section> -->
+
+    <!-- Overview Section -->
+    <div class="overview_section" id="overview">
+        <div class="container">
+            <div class="row mx_-30 mx_sm_-15">
+
+                <div class="col-12 col-md-6 px_30 px_sm_15 left_col">
+                    <div class="contents">
+                        <div class="ov_headings left sm_center">
+                            <h5 class="sec_title">Overview</h5>
+                            <img alt="" style="width:50%;"
+                                nitro-lazy-src="https://renoxgroup.net/assets/img/renox-thrive-img/logo.png"
+                                class="lazyloaded" decoding="async" nitro-lazy-empty="" id="NDM3OjE3Nw==-1"
+                                src="https://renoxgroup.net/assets/img/renox-thrive-img/logo.png">
+                            <h2>Sector 10, Greater Noida West
+                            </h2>
+                            <!-- <img src="images/logo-dark-new.png" alt="" style="width: 50%;"> -->
+                            <!-- <h1 class="section_heading"><span>At GH-04, Tech Zone-IV, Greater Noida West</span></h1> -->
+                        </div>
+                        <p>
+                            Renox Thrive is a fantastic housing project located in Sector 10, Greater Noida West. 
+                            It offers spacious 3 and 4-BHK apartments, starting from Rs. ₹ 1.34 Cr onwards. 
+                            The project is developed by Renox Thrive Infra Group, a reputed builder known for 
+                            its high-quality construction. The apartments at Renox Thrive are designed to provide a 
+                            luxurious and comfortable lifestyle. Each home features modular kitchens, branded fittings,
+                            and private balconies or terraces. The project has an open three-sided design and a 
+                            striking glass facade that offers panoramic views of the surroundings. Renox Thrive 
+                            has an exclusive clubhouse with top-notch amenities like a gymnasium, swimming pool, 
+                            spa, and recreational facilities. The project also offers round-the-clock security, 
+                            concierge services, and designated parking spaces for residents. The project follows 
+                            Vastu principles to ensure positive energy flow throughout the property. 
+                            It is conveniently located near schools, hospitals, shopping centers, and other 
+                            essential amenities, making it an ideal choice for those seeking a luxurious and 
+                            convenient lifestyle. With its modern amenities, prime location, and adherence to 
+                            quality standards, Renox Thrive presents an attractive housing option in Greater Noida 
+                            West.
+                        </p>
+
+                        <button class="btn dark_btn download_btn" data-toggle="modal" data-target="#modal1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.6 11.85H0v3.999h.791v-1.342h.803q.43 0 .732-.173.305-.175.463-.474a1.4 1.4 0 0 0 .161-.677q0-.375-.158-.677a1.2 1.2 0 0 0-.46-.477q-.3-.18-.732-.179m.545 1.333a.8.8 0 0 1-.085.38.57.57 0 0 1-.238.241.8.8 0 0 1-.375.082H.788V12.48h.66q.327 0 .512.181.185.183.185.522m1.217-1.333v3.999h1.46q.602 0 .998-.237a1.45 1.45 0 0 0 .595-.689q.196-.45.196-1.084 0-.63-.196-1.075a1.43 1.43 0 0 0-.589-.68q-.396-.234-1.005-.234zm.791.645h.563q.371 0 .609.152a.9.9 0 0 1 .354.454q.118.302.118.753a2.3 2.3 0 0 1-.068.592 1.1 1.1 0 0 1-.196.422.8.8 0 0 1-.334.252 1.3 1.3 0 0 1-.483.082h-.563zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638z" />
+                            </svg>
+                            Download
+                            Brochure</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 px_30 px_sm_15 right_col">
+                    <div class="image_col">
+                        <img src="https://renoxgroup.com/admin/uploads/microsite/banners/banners-desktop-1728284338.jpg"
+                            alt="Overview Image" class="img-fluid d_sm_none">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 10px;" id="leased">
+        <h3 class="section_heading" style="text-align: center;">Brand's Already Leased</h3>
+        <div class="image-container">
+            <img src="https://bikanervala.com/cdn/shop/files/Logo.png?v=1706606777&width=160" alt="Image 1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAACiCAYAAADC8hYbAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDg4LCAyMDIwLzA3LzEwLTIyOjA2OjUzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIzLTAzLTI3VDExOjExOjI4KzA1OjMwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMy0wMy0yN1QxMToxNTozMCswNTozMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMy0wMy0yN1QxMToxNTozMCswNTozMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpmZjY4NDUyNi0xZjYxLTY3NDctODkxZi0zMzRhNTExNzMyZmQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ZmY2ODQ1MjYtMWY2MS02NzQ3LTg5MWYtMzM0YTUxMTczMmZkIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZmY2ODQ1MjYtMWY2MS02NzQ3LTg5MWYtMzM0YTUxMTczMmZkIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpmZjY4NDUyNi0xZjYxLTY3NDctODkxZi0zMzRhNTExNzMyZmQiIHN0RXZ0OndoZW49IjIwMjMtMDMtMjdUMTE6MTE6MjgrMDU6MzAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7QoFPjAAATZklEQVR4nO2deZQcxX3HP9Xds5e0CBYkIYgskMShhywkAjg4gB8BQ7ATMHbAOAfGJ4lCMDi2A8kjYOznEEJsTEQgBgx2cDCHxRHA3DImBixOIW4wICEJcUhaaa/Znemq/PHr1sz29lxoV1O9W5/35vVO92+6a7a/U131q1/9ShljcDiajdfsAjgc4ITosAQnRIcVOCE6rMAJ0WEFTogOK3BCdFiBE6LDCpwQHVbghOiwAidEhxU4ITqswAnRYQVOiA4rcEJ0WIETosMKnBAdVuCE6LACJ0SHFTghOqzACdFhBU6IDitwQnRYgROiwwqcEB1W4ITosAInRIcVOCE6rMAJ0WEFTogOK3BCdFiBE6LDCpwQHVbghOiwAidEhxU4ITqswAnRYQVOiA4rcEJ0WEHQ7AI0Sv93Dtwel1HA3sB8YAawW/R3FzAFaAXakf9fENkXolceGAS6gfeBF4B10et54JXt8QU6zn1ie1xm1MicEMeIDuBIYAFwFDAHmDlK5/5U4v1q4FXgPuA54EFgYJSulVkmshDnISL5I2AhsMt2uu6HoteR0ft3gaeBZcBSRKQTjokmxA7gBOAU4OgmlyVmGnBM9LoQuAu4Bvhf5BE/IZgoQtwVOAP4EnLjbeYT0ett4L+AS4FNTS3RdmC895oD4FzgNeAc7BdhOTOA84HfAWc3tyhjz3gW4hcQAV4ATGpyWbaFnYB/AV4E/rzJZRkzxqMQdwBuBn4MzGpyWUaTfYGfIe3HliaXZdQZb0I8HHGJfKbZBRlDTkX8kQc1uRyjyngS4peBhxg9/5/NzAWWA59tdkFGi/EixK8CVza7EE3g50gNmXnGgxAXI26Oico1wF81uxDbStaF+IfAZc0uhAX8FPhYswuxLWRZiJ3A3c0uhEU8gIwcZZIsC/HnwORmF8IifOD6Zhfig5JVIR6JDIM5hnMc9oyhN0RWhfjdZhfAYi5vdgE+CFkU4jzgD5pdCIuZDXyk2YVolCwK8fPNLkAGyFyzJYtCXNTsAmSAP2l2ARoli0Kc2+wCZIADml2ARsmiECdKMO+2oJtdgEbJ4k1djOIHKHYdccREryQqeqUdr+dYPdeodM1GypeGrsNu+Hk3Al+ro4RWkTkhqin+nRTNnWg6Rxz0gUBBwWB65Q6qyZ7sHzLgKcgpTL+GQSPHgpRjgOrwoGhG1i0KyCkwYAa0fDYWsg9qkge+kv1J0QXIsQGN6TfQrlDtFa4T06JgUIOS8lFIUbIXlSk0mD7dQ1jf/9ImMifE4iN96F4NedMzonbIKVSnhz+rBe9DOZSCcFWB4gt5TI9G+eDtlsOf34Y3zSdcXaC4Mj6m8KYHBPu3gYHio/3o94py3vg6OrpGm8LbNcCb1YLq8qFPQ7sHBUP4egG9toDpDaGIiMTIOVSLQnX5+HNb8WYE6A0hxeX96HeKcu7yhpIBtEF1BQQL2mBIS1l79fCa0URlmuzh757Dm5lDtVeqXu1FGVPPc8YeNs6aDZ5qQ7EIiVSOb2EebdaYkLWq0yPYLxLU83lMn25VgToUbXoIWe7t2YI3LSB8eRDdHeZUTh2ONj1olnszc2BArymAx3w8tXN0Dan3DO8SmpfxFd4uPsH+7fj7tKDXFik8NYBeW5Bay2cOSi0A9gI2AC8SmqfRDHgzAvy5rYSrhtBvFcBjHp6ayvA61MfQY0LzpDctkNpuQwiBOhgZUw63fm9j1hHyFq0KP/pundet3H43ZRTInBA37b/XIcBNwO4phzWK6ymYb5hevR5ATfZ2I6d+jWFOVItcbPr0NxkyqEleFy1qOYY5ACguMf36LADV4V2F4UuphVA8g+E/TZ++Eg3etADdHcKgRk32D8XnHEyqL289imtN3pxv+vSgaldKdXiXA6dVbHcq7jV5cwyKKapVLcOkuq80il8S8j3Trx+hYOha/Xrlf6KFZFGITwC/X8NsDTLHow+ZxXdB4vhs4I0Kx3LAPsiUg+ooLkFzlhnUqJyCQH0ew7U1Pwe3A8cjmSVW1GG/EDiE+obvjgQe3GlFtubpZ9F9s3MdNr+HTB0AmJ5yfEaZXZJdgKl1lcRwJopDVJsHvjqgThGCBCfE16oHhTzi6+FWMjhrMYtCTGY/uBiZLJV8FsVO3aGUc0S9kNScM6rCZ+4DHk7Zf0y0vSLlWCXei7atNexCpBZ8BkkEVU4fcCewNrG/E6k9M0UWhZhsS/wEyRlzcWK/H23THCMmsa12/pijkVmCSTHmo23arLpLkTw3bciPZRnwOJL2BNIDWf8yst8B8WosrmD7MDKUtzClzPU8Nawic+6bFD4G9DIyGOLxaOszuiR9Iy8hUxaS/IKSY7kVqb0eRNLVVWMh0IPU2iso1XjFhF0svjSv4cYa17COLNaISZYgHY/y0KcngB9Gf4+WU+0OJBz/0MT+R4G0pI1fQ2qxp5BaM4+kD7kLERukVwTfAG5DhLuGdJEDHAbcgmQSS37HJyt/DTsZD0JMYxKwZ/T3aNWIn0RS2JVzD/AO6YEYa4F/Y3i0UBdwLFJbB4xs36VxQoX9k5G0eslsFotxNWJTWAskvbfzgHujv7eM0XVXAX8c/T1yuFHIV9gfAEcgNV4tbm6gTFfiIrSbxlmIP+4fEvvnIgJZn/KZuMbYnHLMJ73D0s/w9lgXpZrwpRT7xcDfI3kONzKy07Q34rNMciFS+34C6Sk/lmID0rNPehD2q2BrPeNBiKuj7e0px3YnvUacH20XphzrJ71d+RWkTRbTiaQ4AZlXnOQypCN1HNKGTLqKtpDe0ViOtCN/ieRIjEmKdh3wZ4gbJ+ajNOZGsoYsCjEpks8Cf4pk/0qyDmnDJbkeGTk5PuXYJiQVXJIViEjK2Q1JGbcO6SAl+RXSHvwfRrpfHiPdj7iUUmDXFuCSaH9vwm5HpEOTHJk5jQzO5MuiENsS789CasOkE3dL9Pq/lHO0k/4YuyPapo1j7wxcl7L/bGSE5OQK5T0QmexV/gPaiOTK3jP1EyU6kd73IkZ2bHZExJqWZCCtnFaTRSG+X6fdV6NtL/VlXN1EaVgwLVVwK/KofDbl2FzENXNGnWWLE27W27tVVP7el6bsq2+I0iKyKMTTqS7GlYhb44ayff+KJCp6rcJnbgM+TOkxfivw27LjTwK/if4+muHDiUspPbL/A/Hv/brCdR5Fasd7ovePAVdV+iIRyxBf5A0MH3o8L9puRtqK5ZxW45zWkcXoG5BH1h7ITTDIY2oqMmrxVI1T7A58HAl8eA0Zx60UqnIS0l5MZhtrAf4CqQUrie7DwMFIvsZ1SBPhhQq2C0kflhsAHknsOxZx4Cd76vsi497PAsuyFn2TVSHGTEV8cm+nWw9jX8QJ/CzpQQ0xeyAL/qxHMrNWw0PENkB94VxzovO/Qz1hZsOZgbiADPJD6EJ+iKvSjLMmxCw+mgE+h0SwvIvUNj3A31SxvxZJhv444nu7ifQ81PFw4f2IUFYBn06xa0MeryHyuH0GcblUiqaZgrhjXovOvRJpDtTKhT0Z8Ufej7ip1iMifgsR/pvID+ti5IeWWbJYIx7ESDdKzAlI+66cpaQPkz2O1GYxV1C5bbWQ4TXer0jPR/g06XOK7yHdpXIvpTCyJKciQ4SNrIi1BPg7cDXi9uDrVY6dk3j/GSqP1R5EKUB1CtUb+OWjNguonBRzEeJOKmcWlf16RyPDkUn+HckE2+iybKcDFzX4GSvIohBnVzm2H6Xo5B2Q5SCqEY+wHF7DrnxqQq0sCucl3teyT0bunE31H1stvkm2FjYCsinEajGUAaVx4quoHQEdh0vVyrS6I6UonlrnnMJwISXjCKsxHxmp2VamjMI5titZFGK1G9uLjBV/HDixxnnepOTPKzRwzVq2AN+hNAJUqxFePt58TR3nrsVzSIcrU2RRiNUYAs6kFAJWjZMaOG+jPboORIxQf2DufNIDbMu5G2n3LkI6OT9i+I9kFdLubaQWtoLxMFWgnBnAD+qwO5/SVIKx4utIe+2tGnaxUGu1U89j5NTXe5FO1qeQJsMtVPeRWst4E2I9XAJ8eztcx0Nqpztq2MWP5iOq2NzHcBHuhvSoFSL0Wz9YEe1hvD2aq1FERJh0r4wlV1C75x4Ht+5Txea/o20HsprCasSv+QySzqSATMw6Lu3DWWAiCXEV21eEIE2FSuFhMXF7LhneVk48Rv1TJP4yOQ8nnnpwG6VJY5liIglxJtKbtpVqk7zisfRKzvlyzkAitTPFRBJiCxJAmxb0OloYKk+YqkR8D6p1MqbXYVPOmQ2WoelMJCGCPP4eZmy/96GMDN2qRjwXJS0YNyau4ep1drupAk3mPWqHbu2JRLOMBQoZrfnrBj4TR+D8popNnDHiAuTReysSYFEpN2y19qaVjDchvotESPfUsDuC4ZOtRjPF6nwkzOuVOu3jay+rYrMXEmbWhkSBn4CMYadNDIPSzMbMMN6EOAt5xCXnOKfxBUrzWkaTHaLt39ZpH4/aPET19uWxyIT8yxBH+Q1UDm54sM5rW0MWhVitzB7S+7wc8a/V4vvRtlYNWu74r1V7xo/L+6mvVoy/Tx8isGrsjATKXoQMUVYakLilwn5ryaIQqwkhoBQGtriKXUxsW6unW6CUqSEtO0M55W6YepaZKBfTEtLnRzfCGiRZVKbIohCr5bJZT2ki+o3UnzemVs21itIjdF0N2/IpondTe0y7NOdErnAYFeah1MkxZDDoIYtCXFrl2I0otBnQsgaK4kSqi+y66Oavp/JMPlD8BA2EBlTFWXsAb6J42QwazBYd259axb4bxUMUxN5sCTEDOo9iIY238zSKoyiaF0xf5haeyqAQNUuQHuRwFL81efPPekOINzXAmyrrmJgBczAqxa+nuM/k9RfNlhCzJYSCORkv0VaURsDtpkdfafIaE4LpDrsJzUkjGgiKkIL5tN4QGtXh4e/TgimA2RS+gOb0VPuiOc5sCDUh5A7poOWYTrwpPmZD2G169ZFoTqF2rsM8cDVDZl+zMXwApfB2r9V6sI/MTZ7auPccWdUJTsNTnwRa0eYuE/JDbyefYH4bwUJxoxVX5GWxn/dD8PgivjoeCAjNLwj5sTc9IDiwHTNgKD4xgN4czlAtfAWlDgc2UjS3GfiZPzNHcEA7qtOjuCJP+Mog5M0R5NTJwByMeZoCV6nJ3sv+vDaCRW2onXz0G0MUV+YJfzcEQ+YwWtQpwJ4YnqZgfqQ6vFf9fVsJFrShdg1QvkJ3h4Qr84SvD6E3hSA1+yF4fASl9kFSIQ8Cr6DNSxjuQfG26vTxZ7fIYkZTPNq/NdZRbqNL5oTYe8ZCTHeI2RBi8lHZWxVel48/pwVveoDp0RjA6/TR7xUJXx2Umzooy5KpdoXqCsR+WgDGEK4uEL4+hNkcyoI9noI2hTc1IJjXBu0KtAGl0G8MEb45JKtAhUZWftpBru/PzGHyBtOvUVOk3xK+PIheU5DmQtFAEK2QNbsVb48cDBlMj5Y2YrwsWr8mfLuI2VDE9GkogBnSpT55ICtgqRY5lzcjh5oeQNFgBjQd/7itfZ7tS+aEOHDJwbKeXdEEFKNGeYBPTkG/FnGWLQ+m2hTE6+oVo9sY4BNE6+4NiL2a5EGrgiFjCI2Wte/wUSoSQvR/UtH6foGCIaPRxuArjxalGDRsbZ/F6/N58XqAZfZeZF+I7KMl0obhK1nKLKfY2j7VaEzUqlV4+Cj86IN5jckbhaGIgo5zsyXEzAXGmh59HPA9FDtFN88wSKlPW35DFZhBA4Ph8PXr8mX2USvZ9OtSZkQlpx1mV3beeMHJrS1sY0pZChPXxyC1XdK+P2GXJDSYXjPSpnwNvvJtXHLFZiSa+8aUs1pL5oSIzM6bWvdytTH12jdy3kY7p9vSma22IMdwZiCjLpkSYvZ6zbWXh3CMTGlsPVkUYiPJzScqS5pdgEbJohAvovHpnRON79c2sYssCrGb2vNAJjJfpvYwpHVkUYggDfFkwqWJjbiA/kl1eFfH/ssskcVec8yFyKSiqxn99fayhcaoDnUGObVEryli+ioFbttLloUIsjLpo8h85WObW5QmYXhA7eyfTo9+aejeHvTqAqaQvSZ0Vh/N5byCrNJ0IvXlvBkv3I/hc2pH/yjzXvjS4NLNFJ/P5whAdWbvtma9Rizn5ug1n1KCzv2bWqLR5zlk+d1bMKxQnR5mXYHBpZsxg2aBNz34Fpr7kewS9WQts4bxJMSY56LXt5FsrB9FlppdhMxpSVtVyka6kQDZZ5DpqcNXJcgpKBiGHupD9xu8qf58NEdHn7sJJ0SreDF6XR29n4QkMJqB1JazkHkguyBZ+mdRmvw01vQgs+02ItNgNyDCexZxv6xj5LJnW1EBmM0a3aflUay5HWlqPcvw9fkyQeaibxzjk+y1ah3jEidEhxU4ITqswAnRYQVOiA4rcEJ0WIETosMKnBAdVuCE6LACJ0SHFTghOqzACdFhBU6IDitwQnRYgROiwwqcEB1W4ITosAInRIcVOCE6rMAJ0WEFTogOK3BCdFiBE6LDCpwQHVbghOiwAidEhxU4ITqswAnRYQVOiA4rcEJ0WIETosMKnBAdVuCE6LACJ0SHFTghOqzACdFhBU6IDitwQnRYgROiwwqcEB1W8P+nbGklhzdU3gAAAABJRU5ErkJggg=="
+                alt="Image 2">
+            <img src="https://logos-download.com/wp-content/uploads/2019/07/Hindustan_Times_Logo.png" alt="Image 3">
+            <img src="https://www.rcjewellers.in/images/whitelogo.png" alt="Image 4">
+            <img src="https://logowik.com/content/uploads/images/digitech-by-harman9730.jpg" alt="Image 5">
+            <img src="https://www.awfis.com/images/logo_black.png" alt="Image 6">
+            <img src="https://i0.wp.com/goldsgym.in/wp-content/uploads/2023/10/fullcolor.png?w=563&ssl=1" alt="Image 7">
+        </div>
+    </div>
+
+    <!-- Price Section -->
+    <div id="price-list" class="price_section nitro-offscreen lazyloaded">
+        <div class="container">
+            <div class="ov_headings center">
+                <h5 class="sec_title">Investment Starts From</h5>
+            </div>
+            <div class="row price_row">
+                <!-- <div class="col-md-4 price_col mb_sm_30">
+                    <div class="single_price">
+                        <p class="typology">Investment Starts From</p>
+                        <div class="price_c">
+                            <h3 class="price"> <sup>₹</sup> 17 Lacs* </h3> <small class="onw">Onwards</small>
+                        </div>
+                        <div class="content">
+                            <div class="sizes" style="color: black;"> <small class="title" style="color: black;">Price</small>
+                                <p style="color: black;">₹17000 Per Month Rent With 30 Years Lease *</p>
+                            </div>
+                            <div class="type" style="color: black;"> <small class="title" style="color: black;">Get</small>
+                                <p style="color: black;">12% Assured Returns *</p>
+                            </div> <button class="call_btn btn dark_btn rounded" data-toggle="modal"
+                                data-target="#modal1">Enquire Now</button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-md-4 price_col mb_sm_30">
+                    <div class="single_price">
+                        <p class="typology">-</p>
+                        <div class="price_c">
+                            <h3 class="price"> <sup>₹</sup> 49.9 Lacs* </h3> <small class="onw">Onwards</small>
+                        </div>
+                        <div class="content">
+                            <div class="sizes" style="color: black;"> <small class="title" style="color: black;">Price</small>
+                                <p style="color: black;">₹50000 Per Month Rent With 30 Years Lease *</p>
+                            </div>
+                            <div class="type" style="color: black;"> <small class="title" style="color: black;">Get</small>
+                                <p style="color: black;">12% Assured Returns *</p>
+                            </div> <button class="call_btn btn dark_btn rounded" data-toggle="modal"
+                                data-target="#modal1">Enquire Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-4 price_col mb_sm_30">
+                    <div class="single_price">
+                        <p class="typology">Investment Starts From</p>
+                        <div class="price_c">
+                            <h3 class="price"> <sup>₹</sup> 38 Lacs* </h3> <small class="onw">Onwards</small>
+                        </div>
+                        <div class="content">
+                            <div class="sizes" style="color: black;"> <small class="title" style="color: black;">Price</small>
+                                <p style="color: black;">₹38000 Per Month With 30 Years Lease *</p>
+                            </div>
+                            <div class="type" style="color: black;"> <small class="title" style="color: black;">Get</small>
+                                <p style="color: black;">12% Assured Returns *</p>
+                            </div> <button class="call_btn btn dark_btn rounded" data-toggle="modal"
+                                data-target="#modal1">Enquire Now</button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=+918588969862&amp;text=Hi!%20I%20am%20Interested%20In%20Renox%20Thrive%20Noida.%20Please%20Share%20Details." " class="
+        whatsapp-icon" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+
+    <!-- highlights Section -->
+    <section class="highlight_section" id="highlights">
+        <div class="container">
+
+            <div class="row mx_-30 mx_sm_-15">
+                <div class="col-md-4 px_30 px_sm_15 left_col">
+                    <ul>
+                        <li><span class="count">01</span>100% Vastu Compliant Design. </li>
+                        <li><span class="count">02</span>Ultra-Luxury Project.</li>
+                        <li><span class="count">03</span>Located on 3 Side Open Plot.</li>
+                        <li><span class="count">04</span>Low-Density Project.</li>
+                        <li><span class="count">05</span>IGBC Green Certification.</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 px_30 px_sm_15 center_col d_sm_none">
+                    <div class="image">
+                        <img src="https://renoxgroup.com/admin/uploads/microsite/sections/sections-1730289691.jpg"
+                            alt="highlights_img" class="img-fluid">
+                        <h3 class="section_heading" style="color: black;">Highlights</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-4 px_30 px_sm_15 right_col">
+                    <ul>
+                        <li><span class="count">06</span>Premium Business Suites</li>
+                        <li><span class="count">07</span>Multiple investment options</li>
+                        <li><span class="count">08</span>Grade A office spaces</li>
+                        <li><span class="count">09</span>Club house: SPA, Gymnasium, Indoor & Outdoor Swimming pool</li>
+                        <li><span class="count">10</span>Iconic Landmark Destination with finest infrastructure RCC
+                            structure designed</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- amenity Section -->
+    <section class="amenity_section" id="amenities">
+        <div class="container">
+
+            <div class="row mx_-30 mx_sm_-15">
+                <div class="col-md-6 px_30 px_sm_15 left_col">
+                    <img src="https://renoxgroup.com/admin/uploads/amenities_logo/amenities-1729764488.jpg"
+                        alt="Amenities Image" class="img-fluid">
+                </div>
+
+                <div class="col-md-6 px_30 px_sm_15 right_col">
+                    <div class="ov_headings left green sm_center">
+                        <h5 class="sec_title" style="color: black;">Our Amenities</h5>
+                    </div>
+
+                    <div class="contents">
+                        <div class="row mx_sm_-5">
+                            <div class="col-6 col-lg-4 px_sm_5">
+                                <div class="single">
+                                    <spna class="icon">
+                                        <img src="https://renoxgroup.com/admin/uploads/amenities_logo/icon/ammenities-1730452827.png"
+                                            alt="Layout Amenity Icon" height="26px" width="26px">
+                                    </spna>
+                                    <h4>Gazebo</h4>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-4 px_sm_5">
+                                <div class="single">
+                                    <spna class="icon">
+                                        <img src="https://renoxgroup.com/admin/uploads/amenities_logo/icon/amenities-icon-1729764488.png"
+                                            alt="Layout Amenity Icon" height="26px" width="26px">
+                                    </spna>
+                                    <h4>Exquisite Clubhouse</h4>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-4 px_sm_5">
+                                <div class="single">
+                                    <spna class="icon">
+                                        <img src="https://renoxgroup.com/admin/uploads/amenities_logo/icon/amenities-icon-1728908453.png"
+                                            alt="Layout Amenity Icon" height="26px" width="26px">
+                                    </spna>
+                                    <h4>Basketball Court</h4>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-4 px_sm_5">
+                                <div class="single">
+                                    <spna class="icon">
+                                        <img src="https://renoxgroup.com/admin/uploads/amenities_logo/icon/amenities-icon-1728908453.png"
+                                            alt="Layout Amenity Icon" height="26px" width="26px">
+                                    </spna>
+                                    <h4>Jogging Court</h4>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-4 px_sm_5">
+                                <div class="single">
+                                    <spna class="icon">
+                                        <img src="https://renoxgroup.com/admin/uploads/amenities_logo/icon/amenities-icon-1728908493.png"
+                                            alt="Layout Amenity Icon" height="26px" width="26px">
+                                    </spna>
+                                    <h4>Pool Table</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Master & Floor plans Section -->
+    <section class="floor_plans_section" id="master-floor-plan">
+        <div class="container">
+            <div class="heading_row">
+                <div class="ov_headings center">
+                    <h5 class="sec_title">Renox Thrive</h5>
+                    <h3 class="section_heading">FLOOR PLAN</h3>
+                </div>
+            </div>
+
+            <div class="" style="display: flex; align-items: center; flex-direction: column;">
+                <div class="col-md-4 mb_sm_50">
+                    <div class="single">
+                        <a data-toggle="modal" data-target="#modal1">
+                            <img src="https://renoxgroup.com/admin/uploads/microsite/floors-plans/floors-plans-1730445280.jpg" alt="Layout Floor plan" class="w-100">
+                            <!-- <h3 class="title" style="color: #fff;">3 BHK + 2T</h3> -->
+                        </a>
+                    </div>
+                </div>
+                
+                <a class="floor_plan" data-toggle="modal" data-target="#modal1">Download Floor Plan</a>
+                <!-- add mt_60 class on extra box -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- e-brochure Section -->
+    <section class="e_brochure_section" id="download-brochure">
+        <div class="container">
+            <div class="row mx_-30 mx_sm_-15">
+                <div class="col-md-6 px_30 px_sm_15">
+                    <img src="https://cdn-ilbbehn.nitrocdn.com/OLtZbbVDAyyJBgErSCPGwvFtnGDmkkor/assets/images/optimized/rev-89e748e/centrade.in/wp-content/uploads/2024/07/e-brochure.jpg"
+                        alt="Layout E-Brochure" class="w-100">
+                </div>
+
+                <div class="col-md-6 px_30 px_sm_15 right_col">
+                    <div class="contents">
+                        <div class="ov_headings left sm_center">
+                            <h5 class="sec_title">Brochure</h5>
+                            <h3 class="section_heading">Download E-Brochure</h3>
+                        </div>
+
+                        <p class="">Wonder why some units will make more profits than others? The selection of units is
+                            crucial, let us share more.</p>
+                        <button class="btn dark_btn download_btn" data-toggle="modal" data-target="#modal1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.6 11.85H0v3.999h.791v-1.342h.803q.43 0 .732-.173.305-.175.463-.474a1.4 1.4 0 0 0 .161-.677q0-.375-.158-.677a1.2 1.2 0 0 0-.46-.477q-.3-.18-.732-.179m.545 1.333a.8.8 0 0 1-.085.38.57.57 0 0 1-.238.241.8.8 0 0 1-.375.082H.788V12.48h.66q.327 0 .512.181.185.183.185.522m1.217-1.333v3.999h1.46q.602 0 .998-.237a1.45 1.45 0 0 0 .595-.689q.196-.45.196-1.084 0-.63-.196-1.075a1.43 1.43 0 0 0-.589-.68q-.396-.234-1.005-.234zm.791.645h.563q.371 0 .609.152a.9.9 0 0 1 .354.454q.118.302.118.753a2.3 2.3 0 0 1-.068.592 1.1 1.1 0 0 1-.196.422.8.8 0 0 1-.334.252 1.3 1.3 0 0 1-.483.082h-.563zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638z" />
+                            </svg>
+                            Request
+                            E-Brochure</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- location advantage section -->
+    <section class="location_section" id="location-advantage">
+        <div class="container">
+            <div class="row mx_-30 mx_sm_-15">
+
+                <div class="col-md-6 px_30 px_sm_15">
+                    <div class="ov_headings left green sm_center">
+                        <h5 class="sec_title" style="color: black;">Location Advantage</h5>
+                        <h3 class="section_heading" style="color: black;">The Comfort of a great location.</h3>
+                    </div>
+                    <ul class="points" style="color: black;">
+                        <li><b>Noida 15 KMS</b> </li>
+                        <li><b>Indirapuram 18 KMS</b></li>
+                        <li><b>Ghaziabad 20 KMS</b> </li>
+                        <li><b>IT Hub & Offices 10 KMS</b> </li>
+                        <li><b>Educational Institutes 2-4 KMS</b> </li>
+                        <li><b>Ghaziabad railway station 23 KMS</b></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 px_30 px_sm_15">
+                    <div class="location_image">
+                        <a href="https://renoxgroup.net/assets/img/renox-thrive-img/location-map.png" class="with-caption image-link" title="Location Map">
+                            <img src="https://renoxgroup.net/assets/img/renox-thrive-img/location-map.png" alt="Layout Location Map" class="w-100">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section -->
+    <section class="gallery_section" id="gallery">
+        <div class="container">
+            <div class="ov_headings center">
+                <h5 class="sec_title">Current Side Development Pictures</h5>
+                <h3 class="section_heading">Making realty dreams a reality</h3>
+            </div>
+
+            <section class="inner_gallery_section">
+                <div class="single">
+                    <a href="https://www.renoxgroup.com/admin/uploads/microsite/gallery/gallery-mobile-1729763303.jpg"
+                        class="with-caption image-link" title="Layout Gallery 1">
+                        <img src="https://www.renoxgroup.com/admin/uploads/microsite/gallery/gallery-mobile-1729763303.jpg"
+                            alt="Layout Gallery Image" class="img-fluid w-100">
+                    </a>
+                </div>
+
+                <div class="single">
+                    <a href="https://www.renoxgroup.com/admin/uploads/microsite/gallery/gallery-mobile-1729763287.jpg"
+                        class="with-caption image-link" title="Layout Gallery 2">
+                        <img src="https://www.renoxgroup.com/admin/uploads/microsite/gallery/gallery-mobile-1729763287.jpg"
+                            alt="Layout Gallery Image" class="img-fluid w-100">
+                    </a>
+                </div>
+
+                <div class="single">
+                    <a href="https://www.renoxgroup.com/admin/uploads/microsite/gallery/gallery-mobile-1729763272.jpg"
+                        class="with-caption image-link" title="Layout Gallery 3">
+                        <img src="https://www.renoxgroup.com/admin/uploads/microsite/gallery/gallery-mobile-1729763272.jpg"
+                            alt="Layout Gallery Image" class="img-fluid w-100">
+                    </a>
+                </div>
+
+                <div class="single">
+                    <a href="https://www.renoxgroup.com/admin/uploads/microsite/gallery/gallery-mobile-1728972184.jpg"
+                        class="with-caption image-link" title="Layout Gallery 4">
+                        <img src="https://www.renoxgroup.com/admin/uploads/microsite/gallery/gallery-mobile-1728972184.jpg"
+                            alt="Layout Gallery Image" class="img-fluid w-100" height="143.44">
+                    </a>
+                </div>
+
+            </section>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about_builder" id="contact-us">
+        <div class="container">
+            <div class="row mx_-30 mx_sm_-15">
+
+                <div class="col-12 col-md-6 px_30 px_sm_15 left_col">
+                    <div class="image_col">
+                        <img src="https://renoxgroup.com/admin/uploads/microsite/sections/sections-1728909473.jpg"
+                            alt="Overview Image" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 px_30 px_sm_15 right_col">
+                    <div class="contents">
+                        <div class="ov_headings left sm_center">
+                            <h5 class="sec_title">About Builder</h5>
+                            <!-- <h3 class="section_heading">CRC SEC-140A</h3> -->
+                        </div>
+                        <p>
+                            Renox Group is a beacon of excellence in real estate, 
+                            specializing in exceptional residential projects in Noida Extension 
+                            and commercial buildings in Ghaziabad. With over a decade of experience, 
+                            we are synonymous with trust and reliability, backed by a proven track 
+                            record of delivering outstanding results. At Renox Group, we don’t just 
+                            build properties; we create vibrant communities and spaces where life thrives.
+                        </p>
+                    </div>
+                    <div class="form an_forms" autocomplete="off">
+                        <h4 class="title">Have a Question? <span>Enquire Now</span></h4>
+                        <form id="testform2">
+                            <input hidden type="text" autocomplete="false">
+                            <div class="form-group mx-0">
+                                <label for="name">Name*</label>
+                                <input type="text" class="form-control compact-input" id="name" placeholder="Enter Your Name*" name="name"
+                                    onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || event.charCode == 32)"
+                                    required="">
+                            </div>
+                            <div class="form-group mx-0">
+                                <label for="budget">Budget*</label>
+                                <div class="radio-options">
+                                    <input type="radio" id="budget1" name="budget" value="50-70L">
+                                    <label for="budget1">₹50-₹70L</label><br>
+                                    <input type="radio" id="budget2" name="budget" value="70-90L">
+                                    <label for="budget2">₹70-₹90L</label><br>
+                                    <input type="radio" id="budget3" name="budget" value="Above 1 CR">
+                                    <label for="budget3">Above ₹1 CR</label>
+                                </div>
+                            </div>
+                            <div class="form-group mx-0">
+                                <label for="number">Mobile Number*</label>
+                                <input type="text" class="form-control compact-input" id="phone" placeholder="Mobile No*" name="phone"
+                                    onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
+                                    required="">
+                            </div>
+                            <input type="hidden" class="form-control" id="city" value="Noida" name="city">
+                            <input type="hidden" id="ip" value="49.249.44.18">
+                            <input type="submit" value="Enquire Now" name="send" class="btn dark_btn submit_btn" id="SubmitQuery">
+                        </form>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><strong>Disclaimer</strong>
+                Any content mentioned in this website is sourced from the Developer/Builder for information 
+                purpose only and not to be considered as an official website. 
+                This Website belongs to Authorised Sales Partner of Renox Thrive and does not include Renox 
+                Thrive Sales Team. The details given here are sourced content from the builder but does not 
+                abide Renox Thrive to this website in any manner.
+            </p>
+            <!-- <p style="margin-top:10px; margin-bottom:10px;"><img src="images/gallery/niral-estate-QR.png"></p> -->
+            <p>
+                <a href="privacy-policy.html"> Privacy Policy </a> | <a href="terms-and-condition.html"> Terms &amp;
+                    Conditions </a> | <a href="cookies-policy.html"> Cookies &amp; Policy</a>
+                <!-- | Design and Developed By 
+                  <a href="https://xdimension.in/" target="_blank">Xpert Dimension</a>  -->
+            </p>
+        </div>
+    </footer>
+
+    <!-- mobile-section -->
+    <div class="mobile-section d-none d_sm_flex">
+        <a href="tel:+91-7406091177" class="btn">
+            <span class="icon_bg">
+                <span class="img_bg"><img src="images/icons/call.svg" alt="icon" class="icon"></span>
+            </span>
+            <b style="color:#fff;"> Tap To Call</b>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=+9108188883953&amp;text=Hi!%20I%20am%20Interested%20In%20Krasa%20Estate%20Noida.%20Please%20Share%20Details."
+            class="btn">
+            <span class="icon_bg">
+                <span class="img_bg"><img src="images/icons/whatsapp.png" alt="icon" class="icon"></span>
+            </span>
+            <b style="color:#fff;"> Whats App</b>
+        </a>
+
+        <a href="javascript:void(0)" class="btn" title="Enquire Now" data-toggle="modal" data-target="#modal1">
+            <span class="icon_bg">
+                <span class="img_bg"><img src="images/icons/envelope.png" alt="icon" class="icon"></span>
+            </span>
+            <b style="color:#fff;"> Enquire Now</b>
+        </a>
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" style="display: none;"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <h3 class="projectName">
+                        <img src="https://www.krasaworld.com/assets/images/logo-dark.png" alt="project logo"
+                            class="img-fluid">
+                    </h3>
+                    <h5 class="location">At GH-04, Tech Zone-IV, Greater Noida West</h5>
+
+                    <h4 class="form_price">Starts At ₹49.9 LACS*</h4>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                    <form id="testform1">
+                        <div class="form-group mx-0">
+                            <label for="name">Name*</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name*" name="name"
+                                onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || event.charCode == 32)"
+                                autocomplete="false" title="Enter Name">
+                            <div class="outline"></div>
+                        </div>
+
+                        <div class="form-group mx-0">
+                            <label for="budget">Budget*</label>
+                            <div>
+                                <input type="radio" id="budget1" name="budget" value="50-70L">
+                                <label for="budget1">₹50-₹70L</label><br>
+                        
+                                <input type="radio" id="budget2" name="budget" value="70-90L">
+                                <label for="budget2">₹70-₹90L</label><br>
+                        
+                                <input type="radio" id="budget3" name="budget" value="Above 1 CR">
+                                <label for="budget3">Above ₹1 CR</label>
+                            </div>
+                            <div class="outline"></div>
+                        </div>
+                        
+
+                        <div class="form-group mx-0">
+                            <label for="number">Mobile Number*</label>
+                            <input id="phone" class="form-control" placeholder="Mobile No*" name="phone"
+                                onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57">
+                            <div class="outline"></div>
+                        </div>
+                        <div class="form-group mx-0">
+                            <input type="hidden" value="Noida" class="form-control" id="city"
+                                placeholder="Enter Your City*" name="city" required="">
+                            <div class="outline"></div>
+                        </div>
+                        <input type="hidden" name="" id="ip" value="49.249.44.18">
+                        <input type="submit" value="Enquire Now" name="submit" class="btn dark_btn submit_btn"
+                            id="SubmitQuery">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./index.js"></script>
+    <script type="text/javascript">
+        emailjs.init('PikugIdScRkOPWdyX')
+    </script>
+</body>
+
+</html>
