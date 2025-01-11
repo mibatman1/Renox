@@ -2,7 +2,7 @@
     --yellow:
 #D3B972;
     --green:#07332F;
-    --light-black:#342f4f;
+    --light-black:#0a1d3d;
 }
 
 @font-face {
@@ -60,7 +60,7 @@ ul,ol{margin:0; padding:0;}
 .py_60{padding-top:60px!important; padding-bottom:60px!important;}
 .py_100{padding-top:100px!important; padding-bottom:100px!important;}
 
-h1,h2,h3,h4,h5,h6{color:#342f4f}
+h1,h2,h3,h4,h5,h6{color:#0a1d3d}
 .form-control{height: 46px; border-radius: 0; box-shadow:none!important;}
 .form-control:focus{border-color: rgb(7 51 47 / 30%)}
 
@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 .icon_btn:hover .icon:after{transform:scale(1); opacity:1;}
 .icon_btn span{position:relative;}
 
-.btn_dark_fill{background:#342f4f;color:#fff;}
+.btn_dark_fill{background:#0a1d3d;color:#fff;}
 .btn_dark_fill .icon:before{background: #000;}
 .btn_dark_fill .icon:after{ background: #fff;}
 .btn_dark_fill.round .icon:before{border-radius: 50%;background: 
@@ -140,7 +140,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 .navbar .navbar-brand{padding:0; margin:0;}
 .navbar .navbar-brand img{max-width: 130px; transition:all 200ms ease-in-out;}
 .navbar.fixed .navbar-brand img{max-width: 140px;}
-.navbar .navbar-toggler{padding: 0; outline: 0; border: none; position: absolute; right: 0; top: 0; background:#342f4f; height: 85px; width: 85px; border-radius: 0; transition:all 200ms ease-in-out;}
+.navbar .navbar-toggler{padding: 0; outline: 0; border: none; position: absolute; right: 0; top: 0; background:#0a1d3d; height: 85px; width: 85px; border-radius: 0; transition:all 200ms ease-in-out;}
 .navbar .navbar-toggler img{max-width:28px; filter: invert(1); transition:all 200ms ease-in-out;}
 .navbar.fixed .navbar-toggler{height: 70px; width: 70px;}
 .navbar.fixed .navbar-toggler img{max-width: 22px;}
@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 .navbar .navbar-collapse .close{margin-left: auto; font-size: 40px; font-weight: normal; cursor: pointer;}
 .navbar .navbar-collapse .navbar-nav{overflow: auto; height: calc(100% - 120px);}
 .navbar .navbar-collapse .nav-item{margin:10px 0;}
-.navbar .navbar-collapse .nav-link{padding: 20px 15px; color: #342f4f; font-weight: 500; font-size: 18px; position:relative;}
+.navbar .navbar-collapse .nav-link{padding: 20px 15px; color: #0a1d3d; font-weight: 500; font-size: 18px; position:relative;}
 .navbar .navbar-collapse .nav-link:before{position:absolute; content:''; height:100%; width:100%; background-image: linear-gradient(to right, rgba(0 0 0 / 5%), transparent); left:0; top:0; z-index: -1;}
 .navbar .navbar-collapse .nav-link:after{position:absolute; content:''; height:100%; width:70%; background-image: linear-gradient(to right, rgba(0 0 0 / 10%), transparent); right:0; top:0; z-index: -1; opacity:0; transition:all 200ms ease-in-out;}
 .navbar .navbar-collapse .nav-link:hover:after{width:100%; opacity: 1;}
@@ -182,7 +182,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 .banner_section .banner-contents{/*min-height:100vh;*/ display: flex; align-items: center; padding: 100px 0;}
 .banner_section .project_logo{max-width: 200px; }
 .banner_section .location{margin: 0; text-transform: uppercase; margin-top: 0; position: absolute; left: -70px; writing-mode: vertical-lr; transform: rotate(180deg); top: 20px; border: 1px solid rgba(255 255 255 / 20%); padding: 15px 8px; background: 
-#342f4f; color: #fff; display: flex; align-items: center;}
+    #0a1d3d; color: #fff; display: flex; align-items: center;}
 .banner_section .location p{margin:0; font-size: 13px; letter-spacing: 2px; font-weight: 500;}
 .banner_section .location img{transform: rotate(90deg); max-width: 16px; margin-bottom: 7px;}
 .banner_section .tagline{margin: 0; font-weight: 500; font-size: 18px; letter-spacing: 1.5px;}
@@ -210,7 +210,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 /* .banner_section .st_price{margin:8px 0 5px;display:flex;font-size:40px;font-weight:600;letter-spacing:1px; align-items: center; line-height: 56px;} */
 /* .banner_section .st_price{margin:8px 0 5px;display:flex;font-size:40px;font-weight:600;letter-spacing:1px; align-items: center; line-height: 56px;} */
 .banner_section .st_price{margin:50px 0; align-items: center; position:relative; line-height: initial; width: max-content; padding: 20px 90px; background-color: 
-#342f4f;}
+#0a1d3d;}
 /* .banner_section .st_price:before{position:absolute; content:'₹'; top:50%; left:0px; transform:translateY(-50%); font-size: 88px; -webkit-text-fill-color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #cdcdcd;}  */
 .banner_section .price_line{color:#fff; display:block; font-size: 18px; font-weight: 400; letter-spacing: 5px; text-transform: uppercase; position: relative;}
 /* .banner_section .st_price .price_line:before{position:absolute; content:''; height:3px; width: 90px; background: var(--yellow); right: -20px; bottom:0;} */
@@ -266,7 +266,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 .banner_section .status span:nth-child(1){
     font-weight: 400;
     letter-spacing: 2px;
-    background-color: #342f4f;
+    background-color: #0a1d3d;
     padding: 10px 20px;
     text-transform: uppercase;
     font-size: 14px;
@@ -278,13 +278,13 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
     line-height: 44px;
     background-color: var(--yellow);
     padding: 3px 30px;
-    color: #342f4f;
+    color: #0a1d3d;
 }
 
 .banner_section .status span:nth-child(3){
     font-weight: 300;
     font-size:16px;
-    background-color:#342f4f;
+    background-color:#0a1d3d;
     padding: 4px 20px;
 }
 
@@ -312,16 +312,16 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 
 @keyframes blinker-no{
     0%{color:
-#342f4f;}
+        #0a1d3d;}
     50%{color:#fff;}
     100%{color:
-#342f4f;}
+     #0a1d3d;}
 }
 
 .banner_section .brochure_btn .wh_c .down_bottom{max-width: 18px;}
 .banner_section .right_col{display:flex; align-items: center; justify-content:center; position: unset;}
 .banner_offers{list-style-type: none; display:flex; flex-wrap: wrap; max-width: max-content; margin-top: 30px; border: 0.5px solid rgba(255 255 255 / 10%); background: 
-#342f4f;}
+ #0a1d3d;}
 .banner_offers li{padding: 14px 20px; line-height: 18px; font-size: 14px; letter-spacing: 0.5px; max-width: 33.33%; flex:0 0 33.33%; border: 0.5px solid rgba(255 255 255 / 10%);}
 .banner_offers li .cont{display: inline-flex; align-items: center;}
 .banner_offers .left{margin-right: 10px;}
@@ -329,8 +329,8 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 .banner_offers .right{line-height: 16px; text-transform: uppercase; font-size: 12px; letter-spacing: 2px; font-weight: 500;}
 .banner_offers .right small{display:block; text-transform: capitalize; letter-spacing: 1.5px; font-weight: 300;}
 .banner_section .banner_offers .active:before{background:
-#342f4f; padding-right: 40px; color:#342f4f;}
-.banner_section .form{padding: 50px; background: #342f4f; color:#fff; position: absolute; right: 0; bottom: 0; width:100%; max-width: 430px; align-items: center;}
+#0a1d3d; padding-right: 40px; color:#0a1d3d;}
+.banner_section .form{padding: 50px; background: #0a1d3d; color:#fff; position: absolute; right: 0; bottom: 0; width:100%; max-width: 430px; align-items: center;}
 .banner_section .form .title{color: #fff; font-size: 32px; font-weight: 600; margin-bottom: 30px;}
 .banner_section .form .title span{display: block; font-size: 14px; text-transform: uppercase; letter-spacing: 2px; margin-top: 10px; font-weight: 100;}
 .banner_section .form-group{position:relative; margin-bottom: 12px;}
@@ -340,7 +340,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 .banner_section .form .form-control{background:#fff; border:none; height:46px; padding:0 15px; color:#342f4f; letter-spacing: 1px; position:relative; font-size: 15px; font-weight: 500;}
 .banner_section .form .form-control::placeholder{font-size:14px; color:#929292; }
 .banner_section .form .outline{position:absolute; content:''; background:
-#342f4f; bottom:0; width:0px; height:2px; display:block; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); transition:all 500ms ease-in-out}
+#0a1d3d; bottom:0; width:0px; height:2px; display:block; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%); transition:all 500ms ease-in-out}
 .banner_section .form-group.active .outline{width:100%;}
 .banner_section .carousel-indicators{right: unset; margin: 0; bottom: 30px; left: 40%; transform: translateX(-50%);}
 .banner_section .carousel-indicators li{height: 25px; width: 25px; text-indent: 0; border:none; opacity:1; background: transparent; position:relative;}
@@ -415,7 +415,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
     width:100%;
     top:0;
     left:0;
-    background:#342f4f;
+    background:#0a1d3d;
     z-index: 0;
 }
 
@@ -467,7 +467,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #342f4f;
+    color: #0a1d3d;
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -736,7 +736,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
     left:unset;
     height: 45px;
     width: 45px;
-    border: 1px solid #342f4f;
+    border: 1px solid #0a1d3d;
     border-radius: 50%;
     margin: 0 10px;
 }
@@ -792,7 +792,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 .floor_plans_section .single .title{
     position: absolute;
     background: var(--yellow);
-    color: #342f4f;
+    color: #0a1d3d;
     margin: 0;
     padding: 6px 20px;
     font-size: 18px;
@@ -843,7 +843,7 @@ h1,h2,h3,h4,h5,h6{color:#342f4f}
 }
 
 .location_section .ov_headings{
-    border-color:#342f4f;
+    border-color:#0a1d3d;
 }
 
 .location_section .location_image{
@@ -1877,11 +1877,11 @@ footer a{
     }
 
     .banner_section .left_col{
-        color:#342f4f;
+        color:#0a1d3d;
     }
 
     .banner_section .bannerHeading{
-        color:#342f4f;
+        color:#0a1d3d;
         font-size: 30px;
         margin: 0px 0 10px;
     }
@@ -1942,7 +1942,7 @@ footer a{
     }
 
     .banner_section .price .price_line{
-        color:#342f4f;
+        color:#0a1d3d;
     }
 
     .banner_section .price .st_price{
@@ -1959,7 +1959,7 @@ footer a{
 
     
     .banner_section .price .rupee_type{
-        color:#342f4f;
+        color:#0a1d3d;
     }
 
     .banner_section .price .rupee_symbol span{
@@ -2014,7 +2014,7 @@ footer a{
         opacity:1;
         color:#fff;
         background:rgb(51 51 51 / 80%);
-        border:#342f4f;
+        border:#0a1d3d;
     }
 
     .banner_section .carousel-indicators li:not(:last-child):before{
@@ -2425,7 +2425,7 @@ footer a{
 
 /* Centering and theme styling */
 .modal-content {
-    background-color: #342f4f;
+    background-color: #0a1d3d;
     border: none;
     border-radius: 8px;
   }
