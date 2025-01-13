@@ -2456,6 +2456,11 @@ footer a{
   .modal-header, .modal-footer {
     border: none;
   }
+
+  .blurred-image {
+    filter: blur(3px); /* Adjust the value for more or less blur */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
   
   .modal-title, .modal-body p {
     color: #fff;
