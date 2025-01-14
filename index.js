@@ -5,7 +5,7 @@ document.getElementById('testform').addEventListener('submit', function(event) {
    btn.value = 'Sending...';
 
    const serviceID = 'service_gtu2llx';
-   const templateID = 'template_kblkj48';
+   const templateID = 'template_qd1xc0i';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
@@ -22,7 +22,7 @@ document.getElementById('testform1').addEventListener('submit', function(event) 
   btn.value = 'Sending...';
 
   const serviceID = 'service_gtu2llx';
-  const templateID = 'template_kblkj48';
+  const templateID = 'template_qd1xc0i';
 
   emailjs.sendForm(serviceID, templateID, this)
    .then(() => {
@@ -39,7 +39,7 @@ document.getElementById('testform2').addEventListener('submit', function(event) 
   btn.value = 'Sending...';
 
   const serviceID = 'service_gtu2llx';
-  const templateID = 'template_kblkj48';
+  const templateID = 'template_qd1xc0i';
 
   emailjs.sendForm(serviceID, templateID, this)
    .then(() => {
