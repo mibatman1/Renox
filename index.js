@@ -11,6 +11,7 @@ document.getElementById('testform').addEventListener('submit', function(event) {
     .then(() => {
       btn.value = 'BOOK A SITE VISIT';
       alert('Sent!');
+      this.reset();
     }, (err) => {
       btn.value = 'BOOK A SITE VISIT';
       alert(JSON.stringify(err));
@@ -28,6 +29,7 @@ document.getElementById('testform1').addEventListener('submit', function(event) 
    .then(() => {
      btn.value = 'BOOK A SITE VISIT';
      alert('Sent!');
+     this.reset();
    }, (err) => {
      btn.value = 'BOOK A SITE VISIT';
      alert(JSON.stringify(err));
@@ -45,6 +47,7 @@ document.getElementById('testform2').addEventListener('submit', function(event) 
    .then(() => {
      btn.value = 'BOOK A SITE VISIT';
      alert('Sent!');
+     this.reset();
    }, (err) => {
      btn.value = 'BOOK A SITE VISIT';
      alert(JSON.stringify(err));
