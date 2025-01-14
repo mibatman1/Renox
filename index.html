@@ -193,24 +193,24 @@
                                             <div class="mt-1">Booking Amount <b>10%</b></div>
                                     </div>
 
-                                    <div class="offer">3BHK + 3T Flats</div>
+                                    <div class="offer" data-toggle="modal" data-target="#modal1" style="cursor: pointer;">Enquire Now</div>
                                     <ul class="banner_offers">
                                         <li>
-                                            <div class="cont"> <span class="right">Possession Time Period - <small>More than 1 Year, More than 3 Year</small></span> </div>
+                                            <div class="cont"> <span class="right">Possession Time 2028</span> </div>
                                         </li>
                                         <li>
                                             <div class="cont"> <span class="right">Location <small>Sector 10 Greater Noida
                                                         West</small></span> </div>
                                         </li>
                                         <li>
-                                            <div class="cont"> <span class="right">Holistic Homes</span> </div>
+                                            <div class="cont"> <span class="right">20+ Modern Amenities</span> </div>
                                         </li>
                                         <li>
                                             <div class="cont"> <span class="right">SBI Approved</span>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="cont"> <span class="right">Top Class Environment</span> </div>
+                                            <div class="cont"> <span class="right">4 Unit Per Floor</span> </div>
                                         </li>
                                         <li>
                                             <div class="cont"> <span class="right">Spread <small>over sprawling 5
@@ -228,6 +228,19 @@
                                                 class="form-control" id="name" placeholder="Enter Your Name*"
                                                 name="name"
                                                 onkeypress="return ((event.charCode >= 65 &amp;&amp; event.charCode <= 90) || (event.charCode >= 97 &amp;&amp; event.charCode <= 122) || event.charCode == 32)"
+                                                required="">
+                                            <div class="outline"></div>
+                                        </div>
+                                        <div class="form-group mx-0"> <label for="number">Mobile Number*</label> <input
+                                            type="text" class="form-control" id="phone" placeholder="Mobile No*"
+                                            name="phone"
+                                            onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57"
+                                            required="">
+                                        <div class="outline"></div>
+                                        </div>
+                                        <div class="form-group mx-0"> <label for="email">Email Id*</label> <input
+                                                type="email" class="form-control" id="email" placeholder="Email ID*"
+                                                name="email"
                                                 required="">
                                             <div class="outline"></div>
                                         </div>
@@ -256,19 +269,7 @@
                                             </div>
                                             <div class="outline"></div>
                                         </div>
-                                        <div class="form-group mx-0"> <label for="number">Mobile Number*</label> <input
-                                                type="text" class="form-control" id="phone" placeholder="Mobile No*"
-                                                name="phone"
-                                                onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57"
-                                                required="">
-                                            <div class="outline"></div>
-                                        </div>
-                                        <div class="form-group mx-0"> <label for="email">Email Id*</label> <input
-                                                type="email" class="form-control" id="email" placeholder="Email ID*"
-                                                name="email"
-                                                required="">
-                                            <div class="outline"></div>
-                                        </div>
+                                        
                                         <div class="form-group mx-0"> <input type="hidden" class="form-control"
                                                 id="city" value="Noida" placeholder="Enter Your City*" name="city"
                                                 required="">
@@ -1023,6 +1024,16 @@
                                     required="">
                             </div>
                             <div class="form-group mx-0">
+                                <label for="number">Mobile Number*</label>
+                                <input type="text" class="form-control compact-input" id="phone" placeholder="Mobile No*" name="phone"
+                                    onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
+                                    required="">
+                            </div>
+                            <div class="form-group mx-0">
+                                <label for="number">Email Id*</label>
+                                <input type="email" class="form-control compact-input" id="email" placeholder="Email Id*" name="email" required="">
+                            </div>
+                            <div class="form-group mx-0">
                                 <label for="budget">Budget*</label>
                                 <div class="radio-options">
                                     <input type="radio" id="budget1" name="budget" value="1.45 Cr">
@@ -1042,16 +1053,7 @@
                                     <label for="po2">More Than 2 Year</label><br>
                                 </div>
                             </div>
-                            <div class="form-group mx-0">
-                                <label for="number">Mobile Number*</label>
-                                <input type="text" class="form-control compact-input" id="phone" placeholder="Mobile No*" name="phone"
-                                    onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
-                                    required="">
-                            </div>
-                            <div class="form-group mx-0">
-                                <label for="number">Email Id*</label>
-                                <input type="email" class="form-control compact-input" id="email" placeholder="Email Id*" name="email" required="">
-                            </div>
+                            
                             <input type="hidden" class="form-control" id="city" value="Noida" name="city">
                             <input type="hidden" id="ip" value="49.249.44.18">
                             <input type="submit" value="Enquire Now" name="send" class="btn dark_btn submit_btn" id="SubmitQuery">
@@ -1132,7 +1134,17 @@
                                 autocomplete="false" title="Enter Name">
                             <div class="outline"></div>
                         </div>
-
+                        <div class="form-group mx-0">
+                            <label for="number">Mobile Number*</label>
+                            <input id="phone" class="form-control" placeholder="Mobile No*" name="phone"
+                                onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57">
+                            <div class="outline"></div>
+                        </div>
+                        <div class="form-group mx-0">
+                            <label for="email">Email Id*</label>
+                            <input id="email" class="form-control" placeholder="Email Id*" name="email"/>
+                            <div class="outline"></div>
+                        </div>
                         <div class="form-group mx-0">
                             <label for="budget">Budget*</label>
                             <div>
@@ -1161,17 +1173,7 @@
                         </div>
                         
 
-                        <div class="form-group mx-0">
-                            <label for="number">Mobile Number*</label>
-                            <input id="phone" class="form-control" placeholder="Mobile No*" name="phone"
-                                onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 &amp;&amp; event.charCode <= 57">
-                            <div class="outline"></div>
-                        </div>
-                        <div class="form-group mx-0">
-                            <label for="email">Email Id*</label>
-                            <input id="email" class="form-control" placeholder="Email Id*" name="email"/>
-                            <div class="outline"></div>
-                        </div>
+                        
                         <div class="form-group mx-0">
                             <input type="hidden" value="Noida" class="form-control" id="city"
                                 placeholder="Enter Your City*" name="city" required="">
